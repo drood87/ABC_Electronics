@@ -2,34 +2,36 @@
 <html>
 <head>
 	<title>ABC Electronics</title>
-	<link rel="stylesheet" type="text/css" href="./resources/styletable.css">
+	<link rel="stylesheet" type="text/css" href="./resources/style2.css">
 </head>
 <body>
 
-
-  <div id="sideWrapper">
-
 	<!-- Heading -->
 
-	<header class="flex-container">
-		<a href="index.html"><img src="./resources/abc_electronics.jpeg" alt="logo" height="300px"></a>
-		<h1>ABC Electronics</h1>	
-	</header>
+	<div id="sideWrapper">
+		<header class="flexContainer">
+			<a href="index2.html"><img src="./resources/abc_electronics.jpeg" alt="logo" class="logoMain"></a>
+			<span class="headerContainer"><h1>ABC Electronics</h1><span>
+		</header>
 
-	<!-- Navigation Bar -->
+		<!-- Navigation Bar -->
 
-	<nav class="flex-container nav">
-		<a href="index.html" class="navbar">Home</a>
-		<a href="products.html" class="navbar">Products</a>
-		<a href="contact.html" class="navbar">Contact Us</a>
-		<a href="about.html" class="navbar">About</a>
+	<nav class="navSection">
+	  <p>	
+		<a href="index2.html" class="navbar">Home</a>
+		<a href="products2.html" class="navbar">Products</a>
+		<a href="contact2.html" class="navbar">Contact Us</a>
+		<a href="about2.html" class="navbar">About</a>
+	  </p>
 	</nav>
-    
-    <h2 class="heading">Products</h2>
+
+  <div class="container">
+	<section class="mainArticle">
+	  <h2 class="heading">Products</h2>
 
     <div id="laptopbox">
     	<h3 class="heading">Laptops</h3>
-    	<h4 class="heading">Below are the available laptops:</h4>
+    	<h4 id="laptopSubheading">Below are the available laptops:</h4>
 
     	<table id="laptop">
     		<th>Model</th>
@@ -87,7 +89,7 @@
 
     <div id="tabletsbox">
     	<h3>Tablets</h3>
-    	<h4>Below are the available tablets:</h4>
+    	<h4 id="tabletSubHeading">Below are the available tablets:</h4>
 
     	<table id="tablets">
     		<th>Model</th>
@@ -113,15 +115,21 @@
     		</tr>
     	</table>  	  	
     </div>
+	</section>
 
-
+    <aside class="sponsors">
+		<h2 class="asideHeader">Sponsors</h2>
+		<a href="https://www.apple.com/au//?afid=p238%7CsVjgH48hD-dc_mtid_18707vxu38484_pcrid_235072527092_&cid=aos-au-kwgo-Brand--slid-"><img src="./resources/applelogo.jpg" width="100%" alt="apple logo" class="logos"></a>
+		<a href="https://www.woolworths.com.au/?cvosrc=ppc.google.woolworths&cvo_campaign=&cvo_crid=231210338617&Matchtype=e&gclid=Cj0KCQiAwKvTBRC2ARIsAL0Dgk13Scw0GUCm2OrOmGr-bB2Wpa4PHWJSnWb9Ch5jswC0r1dxXrs4ri8aAoYiEALw_wcB"><img src="./resources/woolieslogo.png" width="100%" alt="woolies logo" class="logos"></a>
+		<a href="https://www.bigw.com.au/"><img src="./resources/bigwlogo.png" width="100%" alt="big w logo" class="logos"></a>
+		<a href="http://strathfieldcollege.edu.au/"><img src="./resources/collegelogo.png" width="100%" alt="strathfield college logo" class="logos"></a>
+	</aside>
   </div>
 
-	<footer>
+  <footer>
 		<p>Copyright &copy; Daniel Bernstein</p>
 	</footer>
-
- 
+	
 
 </body>
 </html>

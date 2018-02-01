@@ -1,0 +1,179 @@
+body {
+	background-color: #07a1b2;
+	font-family: "Verdana", sans-serif;
+}
+
+#sideWrapper {
+	background-color: white;
+	margin: 0 auto;
+	max-width: 1270px;
+	border: 1px solid black;
+}
+
+h1 {
+	color: blue;
+}
+
+section {
+	background-color: #3ce895;
+}
+
+.flexContainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.logoMain {
+	width: 150px;
+	height: 150px;
+}
+
+.headerContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-right: 150px;
+}
+
+a:link {
+	color: #0000ff;
+}
+
+a:visited {
+	color: #8a2be2;
+}
+a:hover {
+	color: #ffa500;
+}
+
+a:active {
+	color: #00ff00;
+}
+
+.navbar {
+	margin: 10px 20px 10px 15px;
+}
+
+.mainArticle {
+	width: 80%;
+	border: 1px solid black;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	flex-shrink: 3;
+}
+
+.navSection p {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	margin: 5px 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.articleHeading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.consumer {
+	height: 200px;
+	width: 300px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.sponsors {
+	width: 20%;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	flex-shrink: 2;
+}
+
+.asideHeader {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+#laptopbox,
+#laptop {
+	border: 2px solid black;
+}
+
+#mobilebox {
+	border: 2px dashed black;
+}
+
+#tabletsbox {
+	border: 2px dotted black;
+}
+
+#laptopbox {
+	background-color: #F375B0;
+	margin: 5px 5px;
+	color: #9F069A;
+}
+
+#laptop {
+	border-collapse: collapse;
+	position: relative;
+}
+
+#tablets {
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 0 0 auto;
+}
+
+#mobilebox {
+	text-align: center;
+	background-color: #3D9970;
+	margin: 5px 5px;
+	color: #1AD9A6;
+}
+
+#mobile {
+	margin: 0 auto;
+}
+
+#tabletsbox {
+	text-align: right;
+	background-color: #33D0E2;
+	margin: 5px 5px;
+	color: #FFF;
+}
+
+.heading {
+	text-align: center;
+}
+
+td, th {
+	border: 1px solid black;
+}
+
+.box{
+	width: 300px;
+	height: 400px;
+	background-color: green;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#contact {
+	text-align: center;
+}
+
+
+
+
+
